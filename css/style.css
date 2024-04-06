@@ -4,14 +4,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
@@ -19,25 +20,35 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
+  color: #2e2f42;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: #2e2f42;
 }
 
-p {
-  color: #434455;
+.nav-logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
-
 .nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -50,17 +61,18 @@ p {
   text-decoration: none;
 }
 .btn-link a:hover,
-:focus {
+.btn-link a:focus {
   color: #404bbf;
 }
 .link-contact a {
   font-weight: 400;
   color: #434455;
+  font-style: normal;
   text-decoration: none;
 }
 
 .link-contact a:hover,
-:focus {
+.link-contact a:focus {
   color: #404bbf;
 }
 
@@ -69,15 +81,18 @@ p {
 }
 
 .btn-order {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   cursor: pointer;
 }
 
-.btn-order:hover {
+.btn-order:hover,
+.btn-order:focus {
   background: #404bbf;
 }
 
@@ -89,21 +104,25 @@ p {
   text-align: center;
 }
 
+.team-card{
+    background-color: #FFFFFF;
+}
+
 .footer-wrapper {
   background-color: #2e2f42;
 }
 
-.footer-logo {
+.footer-logo-web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
-.footer-descr {
+.footer-logo {
   color: #f4f4fd;
 }
