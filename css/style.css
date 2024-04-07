@@ -64,10 +64,14 @@ h3 {
 .btn-link a:focus {
   color: #404bbf;
 }
+
+.link-contact {
+  font-style: normal;
+}
+
 .link-contact a {
   font-weight: 400;
   color: #434455;
-  font-style: normal;
   text-decoration: none;
 }
 
@@ -96,6 +100,10 @@ h3 {
   background: #404bbf;
 }
 
+.hidden-header{
+    letter-spacing: 0.02em;
+}
+
 .team-wrapper {
   background-color: #f4f4fd;
 }
@@ -104,8 +112,12 @@ h3 {
   text-align: center;
 }
 
-.team-card{
-    background-color: #FFFFFF;
+.team-card {
+  background-color: #ffffff;
+}
+
+.header-name_s3 {
+    letter-spacing: 0.02em;
 }
 
 .footer-wrapper {
@@ -125,4 +137,8 @@ h3 {
 
 .footer-logo {
   color: #f4f4fd;
+}
+
+.footer-descr{
+    color: #F4F4FD;
 }
