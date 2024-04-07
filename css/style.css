@@ -100,8 +100,8 @@ h3 {
   background: #404bbf;
 }
 
-.hidden-header{
-    letter-spacing: 0.02em;
+.hidden-header {
+  letter-spacing: 0.02em;
 }
 
 .team-wrapper {
@@ -117,7 +117,7 @@ h3 {
 }
 
 .header-name_s3 {
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 
 .footer-wrapper {
@@ -139,6 +139,6 @@ h3 {
   color: #f4f4fd;
 }
 
-.footer-descr{
-    color: #F4F4FD;
+.footer-descr {
+  color: #f4f4fd;
 }
