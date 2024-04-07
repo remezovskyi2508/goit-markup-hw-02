@@ -45,23 +45,20 @@ h3 {
   text-decoration: none;
 }
 .nav-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
 
-.btn-link a {
-  font-weight: 500;
-  color: #2e2f42;
-  text-decoration: none;
-}
-.btn-link a:hover,
-.btn-link a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -104,6 +101,14 @@ h3 {
   letter-spacing: 0.02em;
 }
 
+.header-name_s2 {
+  letter-spacing: 0.02em;
+}
+
+.header-team {
+  letter-spacing: 0.02em;
+}
+
 .team-wrapper {
   background-color: #f4f4fd;
 }
@@ -118,6 +123,15 @@ h3 {
 
 .header-name_s3 {
   letter-spacing: 0.02em;
+}
+
+.header-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .footer-wrapper {
