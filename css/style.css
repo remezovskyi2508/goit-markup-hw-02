@@ -33,7 +33,6 @@ h3 {
   line-height: 1.2;
   color: #2e2f42;
 }
-
 .nav-logo-web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -47,18 +46,13 @@ h3 {
 .nav-logo {
   color: #2e2f42;
 }
-
-.nav-link {
+.btn-link a {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
-
-.nav-link:hover,
-.nav-link:focus {
+.btn-link a:hover,
+.btn-link a:focus {
   color: #404bbf;
 }
 
